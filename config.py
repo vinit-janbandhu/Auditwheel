@@ -2,7 +2,7 @@
 ART_URL = "https://na.artifactory.swg-devops.com/artifactory"
 JFROG_AQL_URL = "https://na.artifactory.swg-devops.com/artifactory/api/search/aql"
 
-JFROG_API_KEY = "cmVmdGtuOjAxOjE3NzQyNTUxMTU6clh0alhEbG1POUplR3VLTUxEc2M2SnUzNGwz"
+JFROG_API_KEY = ""
 
 SOURCE_REPO = "sys-linux-power-team-pyeco-main-pypi-local"
 TARGET_UPLOAD_REPO = "sys-linux-power-team-pyeco-auditwheel-testing-pypi-local"
@@ -32,4 +32,5 @@ MAX_TOTAL_WHEELS = 0   # 0 means no limit
 MAX_WORKERS = 4
 
 REPROCESS_FAILED_PACKAGES = ["numpy"]
+
 REPROCESS_ALL = False
